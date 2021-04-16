@@ -35,7 +35,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=bigassertr
-  license: GPL-3
+  license: GPL-3.0-only
   summary: Enhanced message functions (cat() / message() / warning() / error()) using wrappers around sprintf(). Also, multiple assertion functions (e.g. to check class, length, values, files, arguments, etc.).
   license_family: GPL3
   license_file:
