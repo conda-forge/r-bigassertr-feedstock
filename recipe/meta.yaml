@@ -1,4 +1,4 @@
-{% set version = "0.1.3" %}
+{% set version = "0.1.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bigassertr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bigassertr/bigassertr_{{ version }}.tar.gz
-  sha256: a909e4d8b7e6579faba6163d9a3561ea02998c5f7682ea2cca79b61ef55e0ab8
+  sha256: 14d5588e95051683413bf56cfa501e6d0ad061cbf52dd0b236fd87568aa14017
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -36,8 +36,7 @@ test:
 about:
   home: https://CRAN.R-project.org/package=bigassertr
   license: GPL-3
-  summary: Enhanced message functions (cat() / message() / warning() / error()) using wrappers around sprintf(). Also, multiple assertion functions (e.g. to check
-    class, length, values, files, arguments, etc.).
+  summary: Enhanced message functions (cat() / message() / warning() / error()) using wrappers around sprintf(). Also, multiple assertion functions (e.g. to check class, length, values, files, arguments, etc.).
   license_family: GPL3
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
