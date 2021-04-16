@@ -3,7 +3,7 @@ About r-bigassertr
 
 Home: https://CRAN.R-project.org/package=bigassertr
 
-Package license: GPL-3
+Package license: GPL-3.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bigassertr-feedstock/blob/master/LICENSE.txt)
 
