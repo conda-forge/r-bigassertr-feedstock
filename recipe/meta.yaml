@@ -1,4 +1,4 @@
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bigassertr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bigassertr/bigassertr_{{ version }}.tar.gz
-  sha256: 14d5588e95051683413bf56cfa501e6d0ad061cbf52dd0b236fd87568aa14017
+  sha256: a94645fba4602bb5e9c9b2a3febc1ba99e151a042f4eddf02c896c4b327a6d03
 
 build:
   merge_build_host: true  # [win]
