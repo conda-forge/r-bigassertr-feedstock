@@ -1,11 +1,11 @@
-About r-bigassertr
-==================
+About r-bigassertr-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bigassertr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=bigassertr
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bigassertr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Enhanced message functions (cat() / message() / warning() / error()) using wrappers around sprintf(). Also, multiple assertion functions (e.g. to check class, length, values, files, arguments, etc.).
 
