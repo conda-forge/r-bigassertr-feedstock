@@ -1,4 +1,4 @@
-{% set version = "0.1.7" %}
+{% set version = "0.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bigassertr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bigassertr/bigassertr_{{ version }}.tar.gz
-  sha256: cf543d6fe5962ba828aed9525f668535c089f7cd982d910f33b1b53352b6c85f
+  sha256: 434dbf3d9a4d96dcdd2cc13b79c77535b74935d0cec4610a73d86b54a384fa0c
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
